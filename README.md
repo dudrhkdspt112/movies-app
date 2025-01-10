@@ -32,4 +32,4 @@
 ### 1. 프로젝트 클론
 먼저 GitHub에서 이 프로젝트를 클론합니다.
 ### 2. 배포주소
-[배포주소] (https://https://yk-movie.netlify.app//)
+[배포주소] (https://yk-movie.netlify.app//)
