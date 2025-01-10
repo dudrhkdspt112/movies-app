@@ -1,8 +1,35 @@
-# React + Vite
+# 🎬 영화 추천 앱 (Movie Recommendation App)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**영화 추천 앱**은 영화 애호가들을 위한 웹 애플리케이션으로, **React**와 **Vite**를 활용하여 빠르게 구축되었습니다. 이 앱은 최신 영화를 추천하고, 사용자 맞춤형 영화 정보를 제공하는 데 중점을 둡니다. API를 통해 실시간으로 영화 데이터를 받아와 **추천 시스템**을 바탕으로 사용자에게 최적화된 영화를 제안합니다.
 
-Currently, two official plugins are available:
+🌟 **"지금 바로 새로운 영화를 발견하고, 최신 영화를 추천받아보세요!"** 🌟
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 주요 기능
+
+- **영화 검색**: 제목을 입력하면 실시간으로 관련 영화 목록을 보여주며, 사용자가 찾고 있는 영화를 쉽게 검색할 수 있습니다.
+- **추천 영화 시스템**: 사용자의 관심사나 선호도를 기반으로 개인화된 영화 추천 기능을 제공합니다.
+- **영화 상세 정보**: 각 영화의 줄거리, 개봉일, 감독, 배우 등 상세 정보를 제공합니다.
+- **영화 포스터**: 영화와 관련된 포스터 이미지와 함께 직관적이고 시각적인 UI를 제공합니다.
+- **간편한 인터페이스**: 심플하고 직관적인 UI로 누구나 쉽게 사용할 수 있습니다.
+
+## 🎯 기술 스택
+
+이 영화 추천 앱은 최신 기술들을 활용하여 개발되었습니다. 프로젝트의 주요 기술 스택은 다음과 같습니다:
+
+- **Frontend**:
+  - **React**: 동적인 사용자 인터페이스(UI)를 구현하기 위해 React를 사용하여 컴포넌트 기반으로 앱을 구조화했습니다.
+  - **Vite**: 빠른 빌드와 핫 리로딩을 지원하는 **Vite**를 사용하여 개발 환경을 최적화했습니다.
+  - **CSS / TailwindCSS**: 직관적인 스타일링을 위해 기본 CSS와 **TailwindCSS**를 사용하여 유연한 레이아웃을 구현했습니다.
+
+- **API**:
+  - **TMDb API**: [TMDb API](https://www.themoviedb.org/documentation/api)를 통해 최신 영화 데이터를 가져옵니다. 영화 정보, 포스터, 리뷰 등을 실시간으로 받아옵니다.
+  - **OMDb API**: [OMDb API](http://www.omdbapi.com/)를 통해 추가적인 영화 정보를 제공합니다 (선택 사항).
+
+- **기타 도구**:
+  - **ESLint & Prettier**: 코드 스타일과 일관성을 유지하기 위해 ESLint와 Prettier를 사용하여 코드 품질을 관리합니다.
+  - **React Router**: 앱 내에서 페이지를 관리하고, 라우팅 기능을 제공합니다.
+
+### 1. 프로젝트 클론
+먼저 GitHub에서 이 프로젝트를 클론합니다.
+### 2. 배포주소
+[배포주소] (https://textmovie.netlify.app/)
